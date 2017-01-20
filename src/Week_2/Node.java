@@ -1,5 +1,6 @@
 public interface Node {
-    public void printValue();
+  String str = "God says: Let be a Node!";  
+  public void printValue();
 }
 
 public class ListNode implements Node {
