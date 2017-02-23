@@ -53,10 +53,12 @@ class Nuts extends Decorator {
 public class DecoratorDemo {
 
 	public static void main(String[] args) {
-		IceCream icecreamWithChips = new ChocolateChip(new PlainVanilla());
+		IceCream icecreamWithChips = 
+		         new ChocolateChip(new PlainVanilla());
 		icecreamWithChips.customize();
 		
-		IceCream icecreamWithChipsAndNuts = new Nuts(new ChocolateChip(new PlainVanilla()));
+		IceCream icecreamWithChipsAndNuts = 
+		         new Nuts(new ChocolateChip(new PlainVanilla()));
 		icecreamWithChipsAndNuts.customize();
 	}
 
