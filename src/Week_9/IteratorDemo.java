@@ -24,7 +24,7 @@ public class IteratorDemo {
     ListIterator lit = names.listIterator();
 
     while(lit.hasPrevious()) {
-      String obj = (String)it.hasPrevious();
+      String obj = (String)it.previous();
       System.out.println(obj);
     }
   }
